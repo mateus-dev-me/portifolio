@@ -1,0 +1,169 @@
+@media (min-width: 0px) and (max-width: 321px){
+    .titleAbout{
+        width: 1rem;
+    }
+    #home{
+        height: 180vh;
+    }
+
+}
+/*Media para quando o celular estiver deitado*/
+@media(max-height: 390px){
+    #home{
+        height: 180vh;
+    }
+    .menuResp ion-icon{
+        display: block;
+    }
+    .contentAbout{
+        flex-direction: column;
+    }
+    .titleAbout{
+        width: 30rem;
+    }
+    .titleProjects{
+        width: 30rem;
+    }
+    #projects{
+        padding: 4rem;
+    }
+    .contentProjects{
+        gap: 2rem;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+}
+/*Media feita para responsividade de celulares*/
+@media screen and (max-width: 892px) and (min-height: 400px){
+    #home video{
+        height: 100rem;
+    }
+    .mainMenu{
+        display: none;
+    }
+    .menuResp ion-icon{
+        display: block;
+    }
+    .buttonsHome{
+        flex-direction: column;
+    
+    }
+    .language{
+        display: none;
+    }
+    .contentAbout{
+        flex-direction: column;
+        
+    }
+    .titleAbout{
+        width: 20rem;
+    }
+    .aboutMe{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;        
+    }
+    #about{
+        padding: 5rem;
+    }
+    .apresentation{
+        text-align: center;
+    }
+  
+    .projects{
+        flex-direction: column;
+    }
+    .project{
+        width: 15rem;
+    }
+    .imageProject{
+        width: 15rem;
+    }
+    .descricao{
+        width: 15rem;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+    .contentProjects{
+        gap: 4rem;
+    }
+    #projects{
+        padding: 3rem;
+    }
+    .titleProjects{
+        width: 20rem;
+    }
+    .tecnologias{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .buttonProject{
+        flex-direction: column;
+        gap: 1rem;
+    }
+    .infoMessage{
+        flex-direction: column;
+    }
+    #name, #email{
+        width: 20rem;
+    }
+    .titleContact{
+        width: 20rem;
+    }
+    .buttonVoice{
+        left: 18rem;
+    }
+    .contentFooter{
+        flex-direction: column;
+        
+    }
+    .contentFooter h1{
+        font-size: 1rem;
+    }
+}
+
+/*Fiz esse media para que quando a página for aberta em compuatdor ela fique em tamnho fixo mas sem definir isso diretamente na classe*/
+@media screen and (min-width: 1226px){
+    #home video{
+        width: 100vw;
+    }
+    #projects{       
+        padding: 2rem;
+        
+    }
+    .projects{
+        padding: 4rem;
+    }
+
+  
+}
+/*Media feita para dimensão entre a de celular e a de computador*/
+@media screen and (min-width: 893px) and (max-width: 1226px){
+    #home video{
+        height: 100vh;
+        width: auto;
+    }
+    #about{
+        height: 120vh;
+    }
+    .projects{
+        flex-direction: column;
+    }
+    .moreProjectsButton{
+        display: none;
+    }
+    .contentProjects{
+        gap: 2rem;
+    }
+    .titleAbout{
+        width: 30rem;
+    }
+  
+}
+
